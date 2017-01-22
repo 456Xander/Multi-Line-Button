@@ -15,6 +15,10 @@ import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 
 public class MultiLineButton extends JTextArea implements MouseListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Color defaultColor;
 	private Color highlight, lightHighlight;
 	private BtnState state;
